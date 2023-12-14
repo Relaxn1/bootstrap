@@ -1,0 +1,35 @@
+.primary {
+  transform: translateX(100%);
+}
+
+.widget {
+  display: flex;
+}
+
+@media only screen and (max-width: 376px) {
+  .widget__card1 {
+    display: none;
+  }
+
+  .widget__card2 {
+    display: none;
+  }
+
+  .widget__card3 {
+    display: none;
+  }
+
+  .widget__card4 {
+    display: none;
+  }
+
+  .widget__img {
+    max-width: 375px;
+  }
+
+  .carousel-item {
+    transform: translateX(-40%);
+    width: 1000px;
+    height: 500px;
+  }
+}
